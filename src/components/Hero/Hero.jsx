@@ -28,6 +28,22 @@ const Hero = () => {
             </span>
           </div>
         </div>
+
+        {/* figures */}
+        <div className="figures">
+          <div>
+            <span>+140</span>
+            <span>expert coaches</span>
+            </div>
+          <div>
+            <span>+978</span>
+            <span>Members joined</span>
+            </div>
+          <div>
+            <span>+50</span>
+            <span>Fitness Programs</span>
+            </div>
+        </div>
       </div>
       <div className="right-h">right side</div>
     </div>
