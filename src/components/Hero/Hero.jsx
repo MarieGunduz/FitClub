@@ -12,6 +12,7 @@ const Hero = () => {
           <div></div>
           <span>the best fitness club in the town</span>
         </div>
+        
         {/* Hero Heading */}
         <div className="hero-text">
           <div>
