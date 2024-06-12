@@ -65,12 +65,12 @@ const Hero = () => {
         </div>
 
         {/* hero images */}
-        <img src={hero_image} alt="" className="hero_img" />
-        <img src={hero_image_back} alt="" className="hero_img_back" />
+        <img src={hero_image} alt="" className="hero-img" />
+        <img src={hero_image_back} alt="" className="hero-img-back" />
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
 
