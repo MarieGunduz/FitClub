@@ -57,10 +57,20 @@ const Hero = () => {
       </div>
       <div className="right-h">
         <button className="btn">Join Now</button>
+
+        <div className="heart-rate">
+          <img src={Heart} alt="" />
+          <span>Heart Rate</span>
+          <span>116 bpm</span>
+        </div>
+
+        {/* hero images */}
+        <img src={hero_image} alt="" className="hero-img" />
+        <img src={hero_image_back} alt="" className="hero-img-back" />
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
 
