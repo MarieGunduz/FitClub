@@ -127,10 +127,15 @@
     top: 7rem;
 }
 
-.heart-rate>:nth-child(2){
-    color: var(--gray);
+.heart-rate>imge{
+    width: 2rem;
 }
 
 .heart-rate>:nth-child(2){
     color: var(--gray);
+}
+
+.heart-rate>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
 }
