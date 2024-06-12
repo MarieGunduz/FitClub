@@ -69,8 +69,8 @@ const Hero = () => {
         <img src={hero_image_back} alt="" className="hero_img_back" />
         </div>
     </div>
-  );
-};
+  )
+}
 
 export default Hero
 
