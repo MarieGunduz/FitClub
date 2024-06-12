@@ -126,3 +126,11 @@
     right: 4rem;
     top: 7rem;
 }
+
+.heart-rate>:nth-child(2){
+    color: var(--gray);
+}
+
+.heart-rate>:nth-child(2){
+    color: var(--gray);
+}
