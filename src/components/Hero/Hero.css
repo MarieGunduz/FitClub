@@ -177,3 +177,12 @@
     flex-direction: column;
     justify-content: space-between;
 }
+
+.calories > div > :nth-child(1) {
+    color: var(--gray);
+}
+
+.calories > div > :nth-child(2) {
+    color: white;
+    font-style: 1.5rem;
+}
