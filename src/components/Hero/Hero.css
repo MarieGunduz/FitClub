@@ -127,7 +127,7 @@
     top: 7rem;
 }
 
-.heart-rate>imge {
+.heart-rate>image {
     width: 2rem;
 }
 
@@ -154,4 +154,26 @@
     right: 20rem;
     z-index: -1;
     width: 15rem;
+}
+
+.calories {
+    display: flex;
+    gap: 2rem;
+    background-color: var(--caloryCard);
+    border-radius: 5px;
+    padding: 1rem;
+    width: fit-content;
+    position: absolute;
+    top: 32rem;
+    right: 28rem;
+}
+
+.calories > img {
+    width: 3rem;
+}
+
+.calories > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
