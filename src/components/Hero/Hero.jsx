@@ -65,8 +65,8 @@ const Hero = () => {
         </div>
 
         {/* hero images */}
-        <img src={hero_image} alt="" className="hero-img" />
-        <img src={hero_image_back} alt="" className="hero-img-back" />
+        <img src={hero_image} alt="" className="hero-image"  />
+        <img src={hero_image_back} alt="" className="hero-image-back" />
         </div>
     </div>
   );
