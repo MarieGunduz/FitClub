@@ -1,5 +1,6 @@
-import React from "react"
-import "./Programs.css" 
+import React from "react";
+import "./Programs.css";
+import {programsData} from "../../data/programsData";
 
 const Programs = () => {
   return (
@@ -9,6 +10,15 @@ const Programs = () => {
         <span className="stroke-text">Explore our</span>
         <span>Programs</span>
         <span className="stroke-text">to shape you</span>
+    </div>
+
+    <div className="programs-categories">
+        {programsData.map((program)==>
+        <div className="category">
+            {program.image}
+            <span>{program.heading}</span><span>{program.heading}</span>
+        </div>
+    )}
     </div>
 
    </div>
