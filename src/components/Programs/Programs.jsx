@@ -1,10 +1,15 @@
-import React from 'react'
+import React from "react"
+import "./Programs.css" 
 
 const Programs = () => {
   return (
-    <div>
-      
+   <div className="Programs" id="programs">
+    {/* header */}
+    <div className="programs-header">
+        
     </div>
+
+   </div>
   )
 }
 
