@@ -30,3 +30,18 @@
     color: white;
     justify-content: space-between;
 }
+
+.category>:nth-chile(1) {
+    width: 2rem;
+    height: 2rem;fill: white;
+}
+
+.category>:nth-chile(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.category>:nth-chile(3) {
+   font-size: 0.9rem;
+    line-height: 25px;
+}
