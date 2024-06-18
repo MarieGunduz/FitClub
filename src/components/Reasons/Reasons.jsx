@@ -11,7 +11,12 @@ import tick from "../../assets/tick.png";
 
 const Reasons = () => {
   return (
-    <div className="Reasons" id='reasons'></div>
+    <div className="Reasons" id='reasons'>
+      <div className="left-r">
+        
+      </div>
+      <div className="right-r"></div>
+    </div>
   )
 }
 
