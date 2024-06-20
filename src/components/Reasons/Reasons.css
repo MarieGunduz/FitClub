@@ -30,6 +30,7 @@
 
 .left-r>:nth-child(3){
     width: 14rem;
+    grid-row: 2;
     grid-column: 2/3;
 }
 
