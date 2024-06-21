@@ -24,22 +24,23 @@ const Reasons = () => {
         <div><span className="stroke-text">why</span>
           <span> choose us?</span></div>
 
-        <div></div>
+        <div className="details-r">
         <div>
-        <img src="" alt=""></img>
+        <img src={tick} alt=""></img>
         <span></span>
         </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
           </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
           </div>
         <div>
-          <img src="" alt="" />
+          <img src={tick} alt="" />
           <span></span>
+          </div>
           </div>
       </div>
     </div>
