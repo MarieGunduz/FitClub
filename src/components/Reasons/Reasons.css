@@ -62,6 +62,10 @@
 
 .details-r{
     display: flex;
-    font-display: column;
+    flex-direction: column;
     gap: 1rem;
+}
+
+.details-r>div{
+    display: flex;
 }
