@@ -1,4 +1,5 @@
 import React from "react";
+import {plansData} from '../../data/plansData';
 import "./Plans.css";
 
 const Plans = () => {
@@ -10,6 +11,13 @@ const Plans = () => {
         <span>Your Journey</span>
         <span className="stroke-text">Now WithUs</span>
     </div>
+
+    {/* plans card */}
+    <div className="plans">
+
+
+    </div>
+
    </div>
   );
 };
